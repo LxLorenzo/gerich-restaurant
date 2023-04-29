@@ -1,0 +1,19 @@
+.app__UpArrow {
+    width: 100%;
+    position: fixed;
+    top: 92%;
+    left: 92%;
+    z-index: 1000;
+}
+
+.app__UpArrow-arrow {
+    color: var(--color-golden);
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 650px) {
+    .app__UpArrow {
+        display: none;
+    }
+}
